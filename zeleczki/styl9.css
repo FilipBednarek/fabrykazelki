@@ -1,0 +1,71 @@
+body {
+  font-family: Georgia;
+}
+
+header {
+  background-color: rgb(197, 85, 160);
+  text-align: center;
+  display: flex;
+  height: 180px;
+}
+
+header > div {
+  width: 50%;
+}
+
+#baner,
+footer {
+  background-color: rgb(246, 226, 222);
+  text-align: center;
+  height: 100px;
+  padding: 10px;
+}
+
+main {
+  background-color: rgb(197, 85, 160);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main > div {
+  width: 50%;
+  height: 500px;
+}
+
+a.zamowienie {
+  background-image: url(img/cukierki1.png);
+  padding-right: 70px;
+  padding-bottom: 120px;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+table,
+th,
+td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  margin: 20px;
+  padding: 10px;
+}
+
+h2 {
+  letter-spacing: 10px;
+  font-size: 200%;
+}
+
+form {
+  width: 50%;
+}
+
+form > label {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 30%;
+}

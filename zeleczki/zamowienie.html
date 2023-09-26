@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabryka żelków</title>
+    <link rel="stylesheet" href="styl9.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"
+          ><img src="img/cukierki2.png" alt="logo fabryki"
+        /></a>
+      </div>
+      <div><a href="zamowienie.html" class="zamowienie">Zamówienie</a></div>
+    </header>
+    <div id="baner"><h2>Zamów nasz produkt</h2></div>
+    <main>
+      <div id="oferta">
+        <h1>Oferta</h1>
+        <table>
+          <tr>
+            <th>Kształty</th>
+            <th>Kolory</th>
+          </tr>
+          <tr>
+            <td>
+              <ol>
+                <li>miś</li>
+                <li>żabka</li>
+                <li>serce</li>
+              </ol>
+            </td>
+            <td>
+              <ol>
+                <li>czerwony</li>
+                <li>niebieski</li>
+                <li>żółty</li>
+                <li>inny</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <form action="#">
+        <label for="numKszt">
+          Podaj numer kształtu
+          <input type="number" id="numKszt" />
+        </label>
+        skomponuj swój kolor, podaj RGB
+        <div id="colors">
+          <label for="red">
+            R: <input type="number" id="red" max="255" min="0" />
+          </label>
+          <label for="green">
+            G: <input type="number" id="green" max="255" min="0" />
+          </label>
+          <label for="blue">
+            B: <input type="number" id="blue" max="255" min="0" />
+          </label>
+        </div>
+        <button type="submit" id="BtnZamow">Zamów</button>
+        <p id="zamowienie">Wybrany kształt</p>
+        <button id="BtnColor">Wybrany kolor</button>
+      </form>
+    </main>
+    <footer>Autor strony: <i>pesel</i></footer>
+  </body>
+</html>
